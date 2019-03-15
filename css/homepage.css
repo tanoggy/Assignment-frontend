@@ -1,3 +1,9 @@
+*{
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
 .container-fluid {
 	padding-right: 0px !important;
 	padding-left: 0px !important;
@@ -30,6 +36,37 @@ a.nav-link {
 footer {
 	background-color: #005254;
 }
+
+#glas-oggy{
+	margin-top: 150px;
+	font-size: 80px;
+	font-family: 'Lobster', cursive;
+}	
+
+
+#out-brand{
+	font-family: 'Lobster Two', cursive;
+	font-size: 35px;
+}
+#authentic-op{
+	font-family: 'Sniglet', cursive;
+}
+
+#glass-content{
+	margin-top: 20px;
+	font-size: 25px;
+	font-family: 'Sniglet', cursive;
+}
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width:1024px) {
 	#cover-banner {
@@ -93,5 +130,17 @@ footer {
 	h5 {
 		font-size: 30px !important;
 	}
+
+	#glas-oggy{
+	margin-top: 20px ;
+	font-size: 50px;
+	
+	}	
+
+	#glass-content{
+	margin-top: 10px;
+	font-size: 20px;
+	f
+}
 
 }
