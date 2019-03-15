@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  <link href="css/index.css" rel="stylesheet">
+</head>
+<body class="bg-light text-white" onload="setDay()">
+  <nav class="navbar navbar-expand-lg border-bottom" style="background-color: #00c292;">
+    <button class="btn" id="menu-toggle"><img src="img/menu.png" alt=""></button>
+    <div class="sidebar-heading ml-2 h4 ">Admin Pannel</div>
+    
+    
+  </nav>
+  <div class="d-flex mt-3" id="wrapper">
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action active">
+          Dashboard
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">Store</a>
+        <a href="#" class="list-group-item list-group-item-action">Invoice</a>
+        <a href="#" class="list-group-item list-group-item-action">Manger Account</a>
+        <a href="#" class="list-group-item list-group-item-action">Logout</a>
+      </div>
+    </div>
+    <div id="page-content-wrapper">
+      <div class="container-fluid">
+        <div class="card mb-2 " style="background-color: #fb9678;">
+          <h5 class="card-title ml-4 mt-2" id="notifyday"></h5>
+        </div>
+        <div class="row">
+          <div class="col-lg-4  ">
+            <div class="card card-top" style="background-color: #3da5f4;">
+              
+              <div class="card-body">
+                <p class="text-uppercase ml-3">Daily Order</p>
+                <div class="row">
+                  <img src="img/shopping-bag.png" class="ml-4">
+                  <p class="ml-5 h6 mt-1">12569</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4  ">
+            <div class="card card-top" style="background-color: #f1536e;">
+              
+              <div class="card-body">
+                <p class="text-uppercase ml-3">Total Purchases</p>
+                <div class="row">
+                  <img src="img/money-bag.png" class="ml-4">
+                  <p class="ml-5 h6 mt-1">$23245</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4   ">
+            <div class="card card-top" style="background-color: #ab8ce4;">
+              
+              <div class="card-body">
+                <p class="text-uppercase ml-3">customer visits</p>
+                <div class="row">
+                  <img src="img/analytics.png" class="ml-4 ">
+                  <p class="ml-5 h6 mt-1">456</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="container">
+            <div class="row mt-3 ">
+            
+              <div class="col-12 p-4 card">
+                <div class="card-header  bg-success">
+                  <p class="card-title h5">Invoice process</p>
+                </div>
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col">Invoice</th>
+                      <th scope="col">Customer</th>
+                      <th scope="col">Purchsed Price</th>
+                      <th scope="col">  Status</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Oggy</td>
+                      <td>$452</td>
+                      <td><button class="btn btn-success">success</button></td>
+                    
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Joey</td>
+                      <td>$167</td>
+                      <td><button class="btn btn-warning">shipping</button></td>
+                     
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Marky</td>
+                      <td>$842</td>
+                      <td><button class="btn btn-danger">cancel</button></td>
+                     
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+  $("#menu-toggle").click(function(e) {
+  e.preventDefault();
+  $("#wrapper").toggleClass("toggled");
+  });
+  </script>
+</body>
+</html>
