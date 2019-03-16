@@ -10,7 +10,7 @@
 }
 
 #cover-banner {
-	background: url(../img/IMG_4340.jpg) no-repeat;
+	 background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
 	background-size: cover;
 	width: 100%;
 	background-position: center;
@@ -37,53 +37,41 @@ footer {
 	background-color: #005254;
 }
 
-#glas-oggy{
-	margin-top: 150px;
-	font-size: 80px;
-	font-family: 'Lobster', cursive;
-}	
 
-
-#out-brand{
-	font-family: 'Lobster Two', cursive;
-	font-size: 35px;
-}
-#authentic-op{
-	font-family: 'Sniglet', cursive;
-}
-
-#glass-content{
-	margin-top: 20px;
-	font-size: 25px;
-	font-family: 'Sniglet', cursive;
+.product {
+    border-bottom: 1px solid #06060680;
 }
 
 
+#cover-banner {
+		height: 100px;
+	}
 
 
+#card-product {
+    background: #36f78338;
+}
 
 
-
-
-
+div#checkout {
+    padding: 50px;
+}
 
 
 @media (min-width:1024px) {
 	#cover-banner {
-		height: 600px;
+		height: 100px;
 	}
 
 }
 
 @media (min-width:768px) and (max-width:1024px) {
-	#cover-banner {
-		height: 800px;
-	}
 
 	#nav-bar-collap {
 		background: #eaeaea;
 		padding: 20px;
 		margin-top: 10px;
+		z-index: 1;
 	}
 
 	a.nav-link {
@@ -101,18 +89,21 @@ footer {
 	h5 {
 		font-size: 30px !important;
 	}
+
+button.btn.btn-danger {
+    margin-bottom: 20px;
+}
 
 }
 
 @media (max-width:767px) {
-	#cover-banner {
-		height: 400px;
-	}
+
 
 	#nav-bar-collap {
 		background: #eaeaea;
 		padding: 20px;
 		margin-top: 10px;
+		z-index: 1;
 	}
 
 	a.nav-link {
@@ -127,20 +118,12 @@ footer {
 		font-size: 25px;
 	}
 
-	h5 {
-		font-size: 30px !important;
+h5 {
+		font-size: 20px !important;
 	}
 
-	#glas-oggy{
-	margin-top: 20px ;
-	font-size: 50px;
-	
-	}	
 
-	#glass-content{
-	margin-top: 10px;
-	font-size: 20px;
-	
+	button.btn.btn-danger {
+    margin-bottom: 20px;
 }
-
 }
