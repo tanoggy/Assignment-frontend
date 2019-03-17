@@ -1,7 +1,7 @@
-*{
+* {
 	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-	        box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .container-fluid {
@@ -10,7 +10,7 @@
 }
 
 #cover-banner {
-	 background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+	background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
 	background-size: cover;
 	width: 100%;
 	background-position: center;
@@ -37,26 +37,21 @@ footer {
 	background-color: #005254;
 }
 
-
 .product {
-    border-bottom: 1px solid #06060680;
+	border-bottom: 1px solid #06060680;
 }
-
 
 #cover-banner {
-		height: 100px;
-	}
-
+	height: 100px;
+}
 
 #card-product {
-    background: #36f78338;
+	background: #36f78338;
 }
-
 
 div#checkout {
-    padding: 50px;
+	padding: 50px;
 }
-
 
 @media (min-width:1024px) {
 	#cover-banner {
@@ -66,7 +61,6 @@ div#checkout {
 }
 
 @media (min-width:768px) and (max-width:1024px) {
-
 	#nav-bar-collap {
 		background: #eaeaea;
 		padding: 20px;
@@ -90,15 +84,13 @@ div#checkout {
 		font-size: 30px !important;
 	}
 
-button.btn.btn-danger {
-    margin-bottom: 20px;
-}
+	button.btn.btn-danger {
+		margin-bottom: 20px;
+	}
 
 }
 
 @media (max-width:767px) {
-
-
 	#nav-bar-collap {
 		background: #eaeaea;
 		padding: 20px;
@@ -118,12 +110,12 @@ button.btn.btn-danger {
 		font-size: 25px;
 	}
 
-h5 {
+	h5 {
 		font-size: 20px !important;
 	}
 
-
 	button.btn.btn-danger {
-    margin-bottom: 20px;
-}
+		margin-bottom: 20px;
+	}
+
 }
