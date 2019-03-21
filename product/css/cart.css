@@ -48,14 +48,14 @@ footer {
 
 
 
-@media (min-width:1024px) {
+@media (min-width:992px) {
 	#cover-banner {
 		height: 100px;
 	}
 
 }
 
-@media (min-width:768px) and (max-width:1024px) {
+@media (min-width:768px) and (max-width:992px) {
 
 	#nav-bar-collap {
 		background: #eaeaea;
@@ -82,7 +82,7 @@ footer {
 
 }
 
-@media (max-width:767px) {
+@media (max-width:768px) {
 
 
 	#nav-bar-collap {

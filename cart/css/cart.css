@@ -53,14 +53,14 @@ div#checkout {
 	padding: 50px;
 }
 
-@media (min-width:1024px) {
+@media (min-width:992px) {
 	#cover-banner {
 		height: 100px;
 	}
 
 }
 
-@media (min-width:768px) and (max-width:1024px) {
+@media (min-width:768px) and (max-width:992px) {
 	#nav-bar-collap {
 		background: #eaeaea;
 		padding: 20px;
@@ -90,7 +90,7 @@ div#checkout {
 
 }
 
-@media (max-width:767px) {
+@media (max-width:768px) {
 	#nav-bar-collap {
 		background: #eaeaea;
 		padding: 20px;
