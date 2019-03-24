@@ -38,7 +38,7 @@ footer {
 }
 
 #glas-oggy {
-	margin-top: 150px;
+	
 	font-size: 80px;
 	font-family: 'Lobster', cursive;
 }
@@ -56,6 +56,7 @@ footer {
 	margin-top: 20px;
 	font-size: 25px;
 	font-family: 'Sniglet', cursive;
+	    padding-bottom: 100px;
 }
 
 .carousel-indicators li {
@@ -88,6 +89,10 @@ h3#featured-product {
 
 
 @media (min-width:992px) {
+	#glas-oggy {
+	
+	margin-top: 150px;
+}
 	#cover-banner {
 		height: 600px;
 	}
@@ -129,9 +134,15 @@ h3#featured-product {
 		font-size: 30px !important;
 	}
 
+		#glas-oggy {
+		margin-top: 0px;
+		font-size: 50px;
+	}
+
 }
 
 @media (max-width:750px) {
+
 	#cover-banner {
 		height: 400px;
 	}
@@ -159,7 +170,7 @@ h3#featured-product {
 	}
 
 	#glas-oggy {
-		margin-top: 20px;
+		margin-top: 0px;
 		font-size: 50px;
 	}
 
