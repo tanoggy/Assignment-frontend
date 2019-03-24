@@ -9,7 +9,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
 	</head>
-	<body>
+	<body class="bg-light">
 		<!-- bắt đầu nav -->
 		<div class="container-fluid" id="cover-banner">
 			<nav class="navbar navbar-expand-lg bg-transparent ml-md-5">
@@ -22,7 +22,7 @@
 				<div class="collapse navbar-collapse" id="nav-bar-collap">
 					<ul class="navbar-nav list-unstyled"  >
 						<li class="nav-item">
-							<a class="nav-link" href="" title="">Home Page</a>
+							<a class="nav-link" href="../index.html" title="">Home Page</a>
 						</li>
 						<li class="nav-item">
 							<div class="dropdown show">
@@ -30,23 +30,24 @@
 									Product
 								</a>
 								<div class="dropdown-menu" >
-									<a class="dropdown-item" href="#">Varifocal Lenses</a>
+									<a class="dropdown-item" href="#">Puma PE00090 001</a>
 									
 								</div>
 							</div>
 							
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="" title="">Contact</a>
+							<a class="nav-link" href="../contact/index.html" title="">Contact</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="admin-dashboard/index.html" title="">Admin Dashboard</a>
+							<a class="nav-link" href="../admin-dashboard/index.html" title="">Admin Dashboard</a>
 						</li>
 					</ul>
-					<button class="btn  text-white ml-4"
-					id="cart">
+					<a href="../cart/index.html" class="btn  text-white ml-4" id="cart">
+						<img src="../img/shopping-bag.png" >
+					</a>
 					
-					<img src="../img/shopping-bag.png" >
+					
 					</button>
 					<form class="form-inline ml-4 mt-2">
 						<input class="form-control mr-sm-2" >
@@ -58,13 +59,30 @@
 		</div>
 		<!-- 		hết nav -->
 		<!-- bắt đầu content -->
-		<div class="container ">
+		<div class="container mt-5">
 			<div class="card">
-				<div class="card-header">
-					<h3 class="card-title">áihdflkas</h3>
-				</div>
-				<div class="card-body">
-					
+				
+				<div class="card-body bg-white">
+										<div class="container">
+						<div class="row">
+							<div class="col-md-4">
+								<img src="img/prd-img.jpg" class="img-fluid">
+							</div>
+							<div class="col-md-8 pl-3" id="img-prd">
+								<h3>Puma PE00090 001 Eyeglass Frames</h3>
+								<p>Thương hiệu:  <a href="" >Puma</a>   SKU:  8390438979422</p>
+
+								<span style="color:#ff3945;font-size: 35px;margin-left: 20px;">400$</span>
+								<span style="color:#000;font-size: 35px;margin-left: 20px;text-decoration: line-through;">399$</span>
+								<ul>
+									<li>Frame is covered with high quality plastic</li>
+									<li>Lightweight, hugging the face comfortably</li>
+									<li>Fashion design</li>
+								</ul>
+								<button type="button" class="btn btn-danger ml-3">Add to card</button>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

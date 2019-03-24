@@ -37,7 +37,9 @@ footer {
 	background-color: #005254;
 }
 
-
+.img-fluid {
+    border-right: 1px solid #a7a7a782;
+}
 
 
 
